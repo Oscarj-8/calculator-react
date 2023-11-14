@@ -21,7 +21,7 @@
   border: 1px solid #646cff;
   margin: 3% auto;
   max-width: 30em;
-  padding: 1em;
+  padding: 2em;
   border-radius: 1em;
   box-shadow: 1px 1px 30px rgba(100, 108, 255, 0.5);
 }
@@ -29,6 +29,8 @@
 .title {
   display: grid;
   place-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .title h1 {
@@ -38,9 +40,19 @@
   margin: 0;
 }
 
+.title h3 {
+  color: #1a1a1a;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 0.15em;
+  padding: 0.15em;
+}
+
 .calcBody {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  width: 100%;
 }
 
 button {
@@ -53,8 +65,8 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  padding: 0;
   transition: border-color 0.25s;
-  margin: 0.5em;
 }
 
 #buttonC {
