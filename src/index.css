@@ -18,6 +18,11 @@
   display: flex;
   place-items: center;
   flex-direction: column;
+  border: 1px solid #646cff;
+  margin: 0 auto;
+  max-width: 30em;
+  padding: 1em;
+  border-radius: 1em;
 }
 
 .title {
